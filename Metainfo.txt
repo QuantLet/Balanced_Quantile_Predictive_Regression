@@ -1,0 +1,16 @@
+
+Name of Quantlet: BQPR_betadensity
+
+Published in:     Balanced Quantile Predictive Regression
+
+Description:      'Plots the kernel density of the coefficients estimated in BQPR model 
+                  in simulation, which is consistent and asymptotically follows normal
+                  distribution.'
+
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, kernel
+
+Author [New]:     Xiaosai Liao
+
+Submitted:        Tue, February 2 2016 by Chen Huang
+
+Example:          There are two examples with different parameter settings.
