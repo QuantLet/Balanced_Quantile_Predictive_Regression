@@ -26,8 +26,8 @@ beta2 = rep(0, nsim)  # the estimator of bet2
 ## suitation1 data generate
 for (i in 1:nsim) {
     alpha    = 1 - c[1]/n^r[1]
-    xstar    = arima.sim(model = list(ar = c(alpha)), n + 2, sd = 2)
-    m        = as.matrix(cbind(xstar[2:(n + 1)], xstar[1:n]))
+    xstar    = arima.sim(model = list(ar = c(alpha)), n + 3, sd = 2)
+    m        = as.matrix(cbind(xstar[3:(n + 2)], xstar[2:(n + 1)]))
     beta     = as.matrix(c(bet1[1], bet2[1]))
     y        = bet0 + m %*% beta + rnorm(n, 0, sigma[1])
     I        = rep(1, n)
@@ -35,7 +35,7 @@ for (i in 1:nsim) {
     
     
     ## estimate bet1
-    fit      = rq(formula = y ~ m, tau = mytau[1])
+    fit      = rq(formula = y ~ cbind(m, xstar[1:n]), tau = mytau[1])
     temp     = coef(fit)
     beta1[i] = temp[[2]]
     beta2[i] = temp[[3]]
@@ -52,8 +52,8 @@ plot(d2, main = "beta2", ylab = "Kernel Density", xlab = "")
 ## suitation2
 for (i in 1:nsim) {
     alpha    = 1 - c[2]/n^r[2]
-    xstar    = arima.sim(model = list(ar = c(alpha)), n + 2, sd = 2)
-    m        = as.matrix(cbind(xstar[2:(n + 1)], xstar[1:n]))
+    xstar    = arima.sim(model = list(ar = c(alpha)), n + 3, sd = 2)
+    m        = as.matrix(cbind(xstar[3:(n + 2)], xstar[2:(n + 1)]))
     beta     = as.matrix(c(bet1[2], bet2[2]))
     y        = bet0 + m %*% beta + rnorm(n, 0, sigma[2])
     I        = rep(1, n)
@@ -61,7 +61,7 @@ for (i in 1:nsim) {
     
     
     ## estimate bet1
-    fit      = rq(formula = y ~ m, tau = mytau[1])
+    fit      = rq(formula = y ~ cbind(m, xstar[1:n]), tau = mytau[1])
     temp     = coef(fit)
     beta1[i] = temp[[2]]
     beta2[i] = temp[[3]]
