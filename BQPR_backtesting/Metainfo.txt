@@ -1,0 +1,15 @@
+
+Name of Quantlet: BQPR_backtesting
+
+Published in:     Balanced Quantile Predictive Regression
+
+Description:      'Plots the one step ahead estimated VaR(0.05) and VaR(0.95) by 2SQR(2),
+                  with univariate or bivariate predictors, and real observations.'
+
+Keywords:         VaR, empirical, quantile regression, nonstationary, backtesting
+
+Author:           Chen Huang
+
+Submitted:        Fri, December 30 2016 by Chen Huang
+
+Datafile:         Data0_withVariablesName.csv, Data0.csv

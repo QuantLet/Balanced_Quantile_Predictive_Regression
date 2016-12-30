@@ -1,0 +1,17 @@
+
+Name of Quantlet: BQPR_power
+
+Published in:     Balanced Quantile Predictive Regression
+
+Description:      'Plots the power curves by 2SQR(2), 2SQR(2) and IVX-QR
+                  in simulation.'
+
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, statistics
+
+Author:           Chen Huang
+
+Submitted:        Fri, December 30 2016 by Chen Huang
+
+Example:          normal errors and t(3) errors
+
+Datafile:         power_Lee.csv (obtained by the MATLAB code shared by JiHyung Lee)
