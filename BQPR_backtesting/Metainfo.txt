@@ -13,3 +13,6 @@ Author:           Chen Huang
 Submitted:        Fri, December 30 2016 by Chen Huang
 
 Datafile:         Data0_withVariablesName.csv, Data0.csv
+
+Example:          'Predict S&P 500 stock returns (from 192701 to 200512) by persistent 
+                  predictors: d/e, dfy, nits and dfy, d/e and dfy.' 
