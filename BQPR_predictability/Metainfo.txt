@@ -1,5 +1,5 @@
 
-Name of Quantlet: BQPR_predictabilitiy
+Name of Quantlet: BQPR_predictability
 
 Published in:     Balanced Quantile Predictive Regression
 
