@@ -1,33 +1,33 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_predictability** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_predictability
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_predictability
 
-Description : 'Reports the predictability (p-values in the hypothesis tests) of US stock returns by
-2SQR(1) and 2SQR(2).'
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : simulation, asymptotic, quantile regression, nonstationary, hypothesis-testing
+Description:      'Reports the predictability (p-values in the hypothesis tests) of US
+                  stock returns by 2SQR(1) and 2SQR(2).'
 
-Author : Chen Huang
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, hypothesis-testing
 
-Submitted : Monday, January 2 2017 by Chen Huang
+Author:           Chen Huang
 
-Datafile : Data0_withVariablesName.csv, Data0.csv
+Submitted:        Monday, January 2 2017 by Chen Huang
 
-Example : 'Predict S&P 500 stock returns (from 192701 to 200512) by persistent predictors: d/p,
-e/p, b/m, nits, d/e, tbl, dfy, tml.'
+Datafile:         Data0_withVariablesName.csv, Data0.csv
+
+Example:          'Predict S&P 500 stock returns (from 192701 to 200512) by persistent
+                  predictors: d/p, e/p, b/m, nits, d/e, tbl, dfy, tml.'
 
 ```
 
-
-### R Code:
+### R Code
 ```r
+
 # clear history
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -147,3 +147,5 @@ for (ppp in 1:length(c(2, 4, 5))) {
 1 - pchisq(stat2, 2)
 
 ```
+
+automatically created on 2023-03-27
