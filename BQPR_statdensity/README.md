@@ -1,33 +1,33 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_statdensity** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_statdensity
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_statdensity
 
-Description : Plots the kernel density of the statistics estimated by BQPR model in simulation.
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : simulation, asymptotic, quantile regression, nonstationary, kernel
+Description:      'Plots the kernel density of the statistics estimated by BQPR model 
+                  in simulation.'
 
-Author : Chen Huang
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, kernel
 
-Submitted : Fri, December 30 2016 by Chen Huang
+Author:           Chen Huang
 
-Example : t-statistics by 2SQR(1) and self normalized statistics by 2SQR(2)
+Submitted:        Fri, December 30 2016 by Chen Huang
 
+Example:          t-statistics by 2SQR(1) and self normalized statistics by 2SQR(2)
 ```
 
 ![Picture1](BQPR_statdensity1.png)
 
 ![Picture2](BQPR_statdensity2.png)
 
-
-### R Code:
+### R Code
 ```r
+
 ## clear history
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -181,3 +181,5 @@ lines(seq(-4, 4, 0.2), dnorm(seq(-4, 4, 0.2), 0, 1), col = "blue")
 
 
 ```
+
+automatically created on 2023-03-27
