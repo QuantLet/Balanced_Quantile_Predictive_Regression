@@ -1,35 +1,35 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_power** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_power
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_power
 
-Description : Plots the power curves by 2SQR(1), 2SQR(2) and IVX-QR in simulation.
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : simulation, asymptotic, quantile regression, nonstationary, statistics
+Description:      'Plots the power curves by 2SQR(1), 2SQR(2) and IVX-QR
+                  in simulation.'
 
-Author : Chen Huang
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, statistics
 
-Submitted : Fri, December 30 2016 by Chen Huang
+Author:           Chen Huang
 
-Example : under normal errors or t(3) errors
+Submitted:        Fri, December 30 2016 by Chen Huang
 
-Datafile : power_Lee.csv (obtained by the MATLAB code shared by JiHyung Lee)
+Example:          under normal errors or t(3) errors
 
+Datafile:         power_Lee.csv (obtained by the MATLAB code shared by JiHyung Lee)
 ```
 
 ![Picture1](BQPR_power_normal.png)
 
 ![Picture2](BQPR_power_t3.png)
 
-
-### R Code:
+### R Code
 ```r
+
 ## clear history
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -217,3 +217,5 @@ lines(b2, reject.sm[[1]][1, ], lwd = 3, lty = 3)
 title(main = "c=-40, t(3)", line = 0.2)
 
 ```
+
+automatically created on 2023-03-27
