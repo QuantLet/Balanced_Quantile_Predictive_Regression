@@ -1,30 +1,30 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_size** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_size
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_size
 
-Description : 'Reports the size performance of 2SQR(1) and 2SQR(2) with five different types of
-persistent predictor in simulation.'
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : simulation, asymptotic, quantile regression, nonstationary, statistics
+Description:      'Reports the size performance of 2SQR(1) and 2SQR(2) with five different
+                  types of persistent predictor in simulation.'
 
-Author : Chen Huang
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, statistics
 
-Submitted : Monday, January 2 2017 by Chen Huang
+Author:           Chen Huang
 
-Example : under normal errors or t(3) errors
+Submitted:        Monday, January 2 2017 by Chen Huang
+
+Example:          under normal errors or t(3) errors
 
 ```
 
-
-### R Code:
+### R Code
 ```r
+
 ## clear history
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -182,3 +182,5 @@ for(t in 1:length(TAU)){
 REJECT = REJECT[, -1]
 REJECT
 ```
+
+automatically created on 2023-03-27
