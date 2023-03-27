@@ -1,37 +1,36 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_backtesting** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_backtesting
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_backtesting
 
-Description : 'Plots the one step ahead estimated VaR(0.05) and VaR(0.95) by 2SQR(2), with
-univariate or bivariate predictors, and real observations.'
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : VaR, empirical, quantile regression, nonstationary, backtesting
+Description:      'Plots the one step ahead estimated VaR(0.05) and VaR(0.95) by 2SQR(2),
+                  with univariate or bivariate predictors, and real observations.'
 
-Author : Chen Huang
+Keywords:         VaR, empirical, quantile regression, nonstationary, backtesting
 
-Submitted : Fri, December 30 2016 by Chen Huang
+Author:           Chen Huang
 
-Datafile : Data0_withVariablesName.csv, Data0.csv
+Submitted:        Fri, December 30 2016 by Chen Huang
 
-Example : 'Predict S&P 500 stock returns (from 192701 to 200512) by persistent predictors: d/e,
-dfy, nits and dfy, d/e and dfy.'
+Datafile:         Data0_withVariablesName.csv, Data0.csv
 
+Example:          'Predict S&P 500 stock returns (from 192701 to 200512) by persistent 
+                  predictors: d/e, dfy, nits and dfy, d/e and dfy.' 
 ```
 
 ![Picture1](BQPR_backtesting_bivariate.png)
 
 ![Picture2](BQPR_backtesting_univariate.png)
 
-
-### R Code:
+### R Code
 ```r
+
 ## clear history
 rm(list = ls(all = TRUE))
 graphics.off()
@@ -186,3 +185,5 @@ for (v in 2:3) {
 }
 
 ```
+
+automatically created on 2023-03-27
