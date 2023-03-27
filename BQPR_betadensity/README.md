@@ -1,34 +1,34 @@
-
-[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="1100" alt="Visit QuantNet">](http://quantlet.de/)
 
 ## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **BQPR_betadensity** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
 
 ```yaml
 
-Name of Quantlet : BQPR_betadensity
 
-Published in : Balanced Quantile Predictive Regression
+Name of Quantlet: BQPR_betadensity
 
-Description : 'Plots the kernel density of the coefficients estimated in BQPR model in simulation,
-which is consistent and asymptotically follows normal distribution.'
+Published in:     Balanced Quantile Predictive Regression
 
-Keywords : simulation, asymptotic, quantile regression, nonstationary, kernel
+Description:      'Plots the kernel density of the coefficients estimated in BQPR model 
+                  in simulation, which is consistent and asymptotically follows normal
+                  distribution.'
 
-Author [New] : Xiaosai Liao
+Keywords:         simulation, asymptotic, quantile regression, nonstationary, kernel
 
-Submitted : Tue, February 2 2016 by Chen Huang
+Author [New]:     Xiaosai Liao
 
-Example : There are two examples with different parameter settings.
+Submitted:        Tue, February 2 2016 by Chen Huang
 
+Example:          There are two examples with different parameter settings.
 ```
 
 ![Picture1](BQPR_betadensity_1.png)
 
 ![Picture2](BQPR_betadensity_2.png)
 
-
-### R Code:
+### R Code
 ```r
+
 
 ## clear history
 rm(list = ls(all = TRUE))
@@ -107,3 +107,5 @@ plot(d1, main = "beta1", ylab = "Kernel Density", xlab = "")
 plot(d2, main = "beta2", ylab = "Kernel Density", xlab = "") 
 
 ```
+
+automatically created on 2023-03-27
