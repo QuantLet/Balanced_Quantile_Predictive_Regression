@@ -9,7 +9,7 @@ Description:      'Plots the kernel density of the coefficients estimated in BQP
 
 Keywords:         simulation, asymptotic, quantile regression, nonstationary, kernel
 
-Author [New]:     Xiaosai Liao
+Author:           Xiaosai Liao
 
 Submitted:        Tue, February 2 2016 by Chen Huang
 
