@@ -9,7 +9,7 @@ Name of Quantlet: BQPR_power
 
 Published in: Balanced Quantile Predictive Regression
 
-Description: Plots the power curves by 2SQR(1), 2SQR(2) and IVX-QR
+Description: Plots the power curves by 2SQR(1), 2SQR(2) and IVX-QR in simulation.
 
 Keywords: simulation, asymptotic, quantile regression, nonstationary, statistics
 
