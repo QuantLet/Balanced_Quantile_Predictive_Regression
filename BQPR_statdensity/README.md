@@ -9,7 +9,7 @@ Name of Quantlet: BQPR_statdensity
 
 Published in: Balanced Quantile Predictive Regression
 
-Description: Plots the kernel density of the statistics estimated by BQPR model
+Description: Plots the kernel density of the statistics estimated by BQPR model in simulation.
 
 Keywords: simulation, asymptotic, quantile regression, nonstationary, kernel
 
