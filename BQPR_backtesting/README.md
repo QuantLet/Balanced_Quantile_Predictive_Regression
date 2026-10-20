@@ -9,7 +9,7 @@ Name of Quantlet: BQPR_backtesting
 
 Published in: Balanced Quantile Predictive Regression
 
-Description: Plots the one step ahead estimated VaR(0.05) and VaR(0.95) by 2SQR(2),
+Description: Plots the one step ahead estimated VaR(0.05) and VaR(0.95) by 2SQR(2), with univariate or bivariate predictors, and real observations.
 
 Keywords: VaR, empirical, quantile regression, nonstationary, backtesting
 
@@ -19,9 +19,7 @@ Submitted: Fri, December 30 2016 by Chen Huang
 
 Datafile: Data0_withVariablesName.csv, Data0.csv
 
-Example: Predict S&P 500 stock returns (from 192701 to 200512) by persistent
-
-predictors: d/e, dfy, nits and dfy, d/e and dfy.
+Example: Predict S&P 500 stock returns (from 192701 to 200512) by persistent predictors: d/e, dfy, nits and dfy, d/e and dfy.
 
 ```
 <div align="center">
