@@ -9,7 +9,7 @@ Name of Quantlet: BQPR_size
 
 Published in: Balanced Quantile Predictive Regression
 
-Description: Reports the size performance of 2SQR(1) and 2SQR(2) with five different
+Description: Reports the size performance of 2SQR(1) and 2SQR(2) with five different types of persistent predictor in simulation.
 
 Keywords: simulation, asymptotic, quantile regression, nonstationary, statistics
 
