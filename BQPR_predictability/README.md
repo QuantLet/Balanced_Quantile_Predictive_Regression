@@ -9,7 +9,7 @@ Name of Quantlet: BQPR_predictability
 
 Published in: Balanced Quantile Predictive Regression
 
-Description: Reports the predictability (p-values in the hypothesis tests) of US
+Description: Reports the predictability (p-values in the hypothesis tests) of US stock returns by 2SQR(1) and 2SQR(2).
 
 Keywords: simulation, asymptotic, quantile regression, nonstationary, hypothesis-testing
 
@@ -19,8 +19,6 @@ Submitted: Monday, January 2 2017 by Chen Huang
 
 Datafile: Data0_withVariablesName.csv, Data0.csv
 
-Example: Predict S&P 500 stock returns (from 192701 to 200512) by persistent
-
-predictors: d/p, e/p, b/m, nits, d/e, tbl, dfy, tml.
+Example: Predict S&P 500 stock returns (from 192701 to 200512) by persistent predictors: d/p, e/p, b/m, nits, d/e, tbl, dfy, tml.
 
 ```
